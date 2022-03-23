@@ -1,0 +1,72 @@
+.yugioh__banner{
+    width: 100vw;
+    min-width: 100vw;
+    height: 60vh;
+    min-height: 50vh;
+    background-image: url(../../public/yugiohbanner.jpg);
+    background-size: cover;   
+}
+
+.YuGiOhProductsList,.PokemonProductsList,.FabProductsList{
+    color: white;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 35px 75px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+.product__card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 60px 10px;
+}
+.product__card img{
+    transition: 0.5s ease-in-out;
+}
+.product__card img:hover{
+    transform: scale(1.2);
+}
+.product__card h3{
+    font-size: 20px;
+}
+.product__card p{
+    color: #e9cc88;;
+    font-size: 35px;
+    margin: 0;
+}
+.product__picture{
+    width: 300px;
+}
+.buybutton{
+    font-size: 25px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 7px 0px;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #000, #000);
+    transition: 0.5s ease-in-out;
+}
+.buybutton:hover{
+    color: black;
+    background-image: linear-gradient(to right top, #b4903a, #c29f4e, #d0af62, #debf76, #eccf8a, #e9cc88, #e7ca86, #e4c784, #d0b16b, #bc9b53, #a9863b, #957122);
+    border: 2px solid black;
+}
+.cardsRow__searchInput{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    width: 350px;
+    border: 2px solid #e9cc88;
+    border-radius: 25px;
+    outline: none;
+}

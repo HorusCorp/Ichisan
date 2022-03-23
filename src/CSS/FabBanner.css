@@ -1,0 +1,8 @@
+.FabBanner{
+    width: 100vw;
+    min-width: 100vw;
+    height: 60vh;
+    min-height: 50vh;
+    background-image: url(../../public/fabbanner.jpg);
+    background-size: cover;
+}

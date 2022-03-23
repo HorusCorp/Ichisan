@@ -1,0 +1,30 @@
+.footer__icon__bar{
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 30vh;
+    min-height: 30vh;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: black;
+    color:  white;
+    font-family: 'Teko', sans-serif;
+}
+.footer__icon__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer__icon__card h3{
+    font-size: 25px;
+}
+.footer__icon__card p{
+    font-size: 20px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+.Navbar__container{
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    color: #e9cc88;
+    width: 100vw;
+    max-width: 100vw;
+    height: 55px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar__right{
+    min-width: 60%;
+    width: 60%;
+}
+.navbar__right ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar__right ul li{
+    box-sizing: border-box;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.navbar__right ul li:hover{
+    color: white;
+}
+.hidden__menu{
+    display: none;
+    color: white;
+    box-sizing: border-box;
+}
+.revealed__menu{
+    display: block;
+    position: fixed;
+    left: 500px;
+    top: 65px;
+}
+.revealed__menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.revealed__menu ul li{
+    height: 65px;
+    width: 150px;
+}
+.Yu-Gi-Oh{
+    background-image: url(../../public/yugioh.png);
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+.Flesh-and-Blood{
+    background-image: url(../../public/fab.png);
+    background-size: cover;
+    transition: 0.5s ease-in-out; 
+}
+.Pokemon{
+    background-image: url(../../public/Pokémon.png);
+    background-size: cover;
+    transition: 0.5s ease-in-out; 
+}
+.Pokemon:hover,.Flesh-and-Blood:hover,.Yu-Gi-Oh:hover {
+    transform: scale(1.2);
+}
+/*PHONE*/
+@media screen and (max-width: 600px){
+    .Navbar__container{
+        font-size: 12px;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar__left{
+        padding: 7px 0;
+    }
+    .navbar__right{
+        width: 100%;
+    }
+    .navbar__right ul{
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar__right ul li{
+        padding: 0 2px;
+    }
+}

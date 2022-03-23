@@ -1,0 +1,13 @@
+.PokemonBanner{
+    width: 100vw;
+    min-width: 100vw;
+    height: 60vh;
+    min-height: 50vh;
+    background-image: url(../../public/pokemonbanner.jpg);
+    background-size: cover;
+}
+.cardsRow__searchDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

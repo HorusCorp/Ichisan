@@ -1,0 +1,39 @@
+.FirstHomeZone{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: auto;
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 35px;
+    display: flex;
+}
+.FirstHomeZone__left{
+    max-width: 50vw;
+    width: 50vw;
+    box-sizing: border-box;
+    padding: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.FirstHomeZone__left span{
+    color: #e9cc88;
+    font-weight: bold;
+    font-size: 20px;
+}
+.FirstHomeZone__right{
+    max-width: 50vw;
+    width: 50vw;
+    min-height: 50vh;
+    background-image: url(../../public/bannerimport.jpg);
+    background-size: cover;
+}
+
+.FirstHomeZone h2{
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+}
